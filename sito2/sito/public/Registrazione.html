@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head><!--info per browser--> 
+        <!-- titolo visualizzato nell url della pagina -->       
+        <title>Registrati</title>
+        <meta charset="UTF-8">
+        <!--ANDIAMO A LINKARE LA PAGINA CSS-->
+        <link rel= "stylesheet" href="style.css">
+        
+      
+
+        
+    </head>
+        <body > 
+           
+            <div class="margine-home">
+                <a href="index.html"> <button class="padd size-bottoni bottoni"> <img src="immagini/casa.png" alt="" height="44px" width="44px"></button></a>
+            </div>
+
+            <div class="posizione-reg">
+                <form action="signup/accesso" method="post" enctype="application/x-www-form-urlencoded">
+                    <input name="nome" placeholder="Nome *" type="text"><br>
+                    <input name="cognome" placeholder="Cognome *" type="text"><br>
+                    <input name="email" placeholder="Email *" type="text"><br>
+                    <input name="telefono" placeholder="Telefono" type="text"><br>
+                    <input name="password" placeholder="Password *" type="password"><br>
+                    <div id="reg">
+                        <input type="submit" class="pippo">
+                    </div>
+                </form>
+            </div>
+            <p id="paragrafo" class="colore-rosso"></p>
+
+            
+            <div class="super">
+                <span class="bianco"><b>
+                    <ul class="scritta">
+                        <h1 class="colore-white">SouzePixart</h1>
+                    </ul>
+
+
+
+                    <ul>
+                        <span class="colore-white">
+                            <li > Dove Trovarci</li>
+                            <li>Indirizzo : <br><a class="colore-white" href= "https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html"> Via Domenico Capitelli, 23, 80134 Napoli NA </a></li>
+                            <li>Telefono: 081 551 1311</li>
+                        </span>
+                    </ul>
+
+
+
+                    <ul> <span class="colore-white">
+                        Developer: <br> Riccardo Andrea Spinosa <br>Alessando Massadoro
+                        </span>
+                    </ul>
+
+                    <img src="immagini/pagamenti.jpg" alt="">
+                </b>
+                </span>
+            </div>
+
+            <script>
+                const form = document.querySelector('form');
+                const nome = document.getElementById('nome');
+                const cognome = document.getElementById('cognome');
+                const email = document.getElementById('email');
+                const paragrafo= document.getElementById('paragrafo');
+                const pass= document.getElementById('password');
+                function controlloform(event){
+                    console.log(nome.value,cognome.value,email.value);
+                    if(nome.value === "" || cognome.value=== "" || email.value=== "" || pass.value === "" ){
+                        event.preventDefault();
+                        paragrafo.textContent="Compila i campi obbligatori";
+                        
+                    }
+                }
+                
+                form.onsubmit = controlloform;
+
+                
+            </script>
+
+
+        <body>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head><!--info per browser--> 
+        <!-- titolo visualizzato nell url della pagina -->       
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <!--ANDIAMO A LINKARE LA PAGINA CSS-->
+        <link rel= "stylesheet" href="style.css">
+        <script type="text/javascript" src="script-JS/codicesterno.js"></script>
+        
+
+        
+    </head>
+       <body>
+    <div class="margine-home">
+        <a href="index.html"> <button class="padd size-bottoni bottoni"> <img src="immagini/casa.png" alt="" height="44px" width="44px"></button></a>
+    </div>
+        <!--ESEGUIAMO UN FORM PER LOGIN-->
+        <form action="/login/accesso" method="post">
+            <div class="imgcontainer">
+              <img src="immagini/avatar.jpg" alt="Avatar" class="avatar">
+            </div>
+          
+            <div class="container">
+            
+              <input type="text" placeholder="Enter Username" name="uname" required>
+          
+              
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me <span class="psw">Forgot <a href="#">password?</a></span>
+              </label>
+            </div>
+          
+            <div class="container" style="background-color:#f1f1f1">
+              
+              
+            </div>
+          </form>
+
+          <div class="position-button">
+            <p>
+            <!--BOTTONI FACEBOOK E GOOGLE-->
+                <div>
+                    <a  href="/auth/facebook"><button class="loginBtn loginBtn--facebook">
+                        Login with Facebook
+                    </button> </a>
+                    <a  href="/auth/google">
+                    <button class="loginBtn loginBtn--google">
+                        Login with    Google                    
+                    </button></a>
+                </div>
+            </p>
+        </div>
+
+        <div class="super">
+            <span class="bianco"><b>
+                <ul class="scritta">
+                    <h1 class="colore-white">SouzePixart</h1>
+                </ul>
+
+
+
+                <ul>
+                    <span class="colore-white">
+                        <li > Dove Trovarci</li>
+                        <li>Indirizzo : <br><a class="colore-white" href= "https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html"> Via Domenico Capitelli, 23, 80134 Napoli NA </a></li>
+                        <li>Telefono: 081 551 1311</li>
+                    </span>
+                </ul>
+
+
+
+                <ul> <span class="colore-white">
+                    Developer: <br> Riccardo Andrea Spinosa <br>Alessando Massadoro
+                    </span>
+                </ul>
+
+                <img src="immagini/pagamenti.jpg" alt="">
+            </b>
+            </span>
+        </div>
+       </body>
+
+       </html>

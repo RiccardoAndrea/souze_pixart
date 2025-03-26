@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="https://apis.google.com/js/platform.js" async defer></script>
+            <title>WORKING PROGRESS</title>
+            <link rel="stylesheet" href="style.css">
+            <meta charset="utf-8">
+            <script type="text/javascript" src="script-JS/codicesterno.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+           
+    </head>
+    <body > 
+
+<!--INIZIARE DA QUI E TERMINARE FINO AL COMMENTO CHE INDICA DI FERMARSI-->
+ <div class="parthenope-one box">
+    <p>
+        <a href="index.html"> <h1>Souze<span class="rosso">pixart</span></h1></a>
+        <!--INSERIAMO BOTTONE DI RICERCA-->
+        <div>
+            <p>
+                <div class="margine-search">
+                        <input type="search" name="" id="input-bottone" placeholder="che cosa stai cercando" class=" padd size-bottoni larghezza">
+                        <button id="cerca" class="padd size-bottoni bottoni"> Cerca<iframe src="svg/lente.svg" frameborder="0" height="14px" width="14px"></iframe></button>
+                        <a href="accesso.html"><button class="padd size-bottoni bottoni"><iframe src="svg/user-solid.svg" frameborder="0" height="14px" width="14px"></iframe> Accedi</button></a>
+                        <a href="Registrazione.html"> <button class="padd size-bottoni bottoni"><iframe src="svg/user-plus-solid.svg" frameborder="0" height="16px" width="16px"></iframe> Registrati </button></a>
+                        <a href="carrello.html"> <button class="padd size-bottoni bottoni"><iframe src="svg/cart-shopping-solid.svg" frameborder="0" height="16px" width="16px"></iframe> Carrello </button></a> 
+                    </div>
+        <!--INSERIAMO TAG MODIFICATI CON JS-->
+
+                
+                
+                <div id="fallimento">  </div>
+        </div>
+    </p>
+
+    
+</div>
+
+<div class="it"> 
+    <div id="div_cerca">
+        
+    </div> 
+</div>
+    
+
+  <!--ANDIAMO A DEFINIRE ALTRI DUE BOTTONI BORDATI-->
+  <div class="marg-reg" > 
+    <a href="invio-file-nologin.html"><button class="bordo invio-file">Invia istruzioni prodotto</button></a>
+    
+</div>
+
+
+
+
+    
+
+    <table> 
+        <div>
+            <p style="margin-top: 11%;" class="posizione-acquisto"><b>Formato</b></p>
+            <table class="posizione-acquisto" >
+            <tr>
+                <td id="29"><img src="formato-img/cerchio.png" alt="" width="90px" height="90px"  hspace="25"></td>
+                <td id="30"><img src="formato-img/quadrato.png" alt="" width="90px" height="90px"  hspace="25"></td>  
+                <td id="31"><img src="formato-img/angoli-rotondi.png" alt=""width="110px" height="110px"  hspace="25"> </td>
+                <td id="32"><img src="formato-img/rettangolo.png" alt="" width="90px" height="90px"  hspace="25"></td> 
+                <td id="33"><img src="formato-img/cartellino.jpg" alt="" width="110px" height="110px"  hspace="25"></td>
+            </tr>
+        </table>
+        </div>
+        <div>
+            <table class="posizione-acquisto">
+            <tr>
+                                                        
+                   <span><td><br>&nbsp;&nbsp;&nbsp; <pre><p>       Tondo <br>&nbsp;&nbsp;     diametro <br>&nbsp;&nbsp;     6.5 cm </p></pre></td></span> 
+                   <span><td>&nbsp;<pre><p>               Quadrato <br>&nbsp;              6.5 x 6.5 cm </p></pre></td></span>
+                   <span ><td><br><br>&nbsp;&nbsp;&nbsp;<pre><p>             Quadrato <br>&nbsp;&nbsp;&nbsp;          angoli <br>&nbsp;&nbsp;&nbsp;          arrotondati <br>&nbsp;&nbsp;&nbsp;          6.5 x 6.5 cm </p></pre></td></span>
+                   <span><td> <pre><p>         Rettangolare <br>         5.5 x 10 cm </p></pre></td></span>
+                   <span><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<pre><p>                 cartellino  classico <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            5.5 x 10 cm </p></pre></td></span>
+            </tr>
+            </table>
+        </div>
+       
+        <div>
+            <table id="informazione" class="posizione-acquisto">
+            <tr>
+                <td ><br>&nbsp;&nbsp;&nbsp;<button class="no_bordo"><img src="immagini/icona-info.jpg" alt="" width="24px" height="24px" hspace="45"></td>
+                <td><br>&nbsp;&nbsp;&nbsp;<button class="no_bordo"><img src="immagini/icona-info.jpg" alt="" width="24px" height="24px" hspace="45"></button></td>
+                <td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="no_bordo"><img src="immagini/icona-info.jpg" alt="" width="24px" height="24px" hspace="45"></td>
+                <td><br>&nbsp;&nbsp;&nbsp;<button class="no_bordo"><img src="immagini/icona-info.jpg" alt="" width="24px" height="24px" hspace="45"></button></td>
+                <td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="no_bordo"><img src="immagini/icona-info.jpg" alt="" width="24px" height="24px" hspace="45"></button></td>
+               
+            </tr>
+        </table>
+        </div>
+       <br><br>
+    </table>
+    <p id="info2" class="none"> Testo casuale di spiegazione del formato</p>
+        <br><br>
+
+
+
+        <div class="posizione-acquisto" id="impostazioni">
+
+            <p>Base (cm) <button class="posizione-imp"> 14,8cm</button></p> <br>
+            <p> Altezza (cm)<button class="posizione-imp1">10,5cm </button></p><br>
+            <p> Orientamento <button class="posizione-imp2">orizzontale <img src="svg/angle-down-solid.svg" width="14px" height="14px" alt=""></button></p><br>
+            <p>Indicazioni di stampa <button class="posizione-imp3">fronte e retro differenti <img src="svg/angle-down-solid.svg" width="14px" height="14px" alt=""></button></p><br>
+            <p>  Carta<button class="posizione-imp4">Standard <img src="svg/angle-down-solid.svg" width="14px" height="14px" alt=""></button></p><br>
+            <p> Grammatura<button class="posizione-imp5">300gr <img src="svg/angle-down-solid.svg" width="14px" height="14px" alt=""></button></p><br>
+            <p>   Plastificazione<button class="posizione-imp6">Nessuna <img src="svg/angle-down-solid.svg" width="14px" height="14px" alt=""></button></p><br>
+            <p> Assegna un nome alla lavorazione <input type="text" name="" id="" placeholder="Nome lavorazione" class="posizione-imp7 padd2"></p><br> 
+
+            
+        </div>
+ 
+
+
+
+        
+        <table >
+            <div>
+                
+                <table class="posizione-acquisto" id="improvvisato">
+                <thead>
+                    <tr>
+                        <th>Quantità</th>
+                        <th><h5>Lunedì</h5></th>
+                        <th><h5>Martedì</h5></th>
+                        <th><h5>Mercoledì</h5></th>
+                        <th><h5>Giovedì</h5></th>
+                        </b>
+                </thead>
+                      
+                    </tr>
+                    <br> <br>
+                <tbody>
+                    <tr>
+                       
+                        <td>25</td>
+                        <td id="1">Wait...</td>
+                        <td id="2">Wait...</td>
+                        <td id="3">Wait...</td>
+                        <td id="4">Wait...</td>
+                        </b>
+                    </tr>
+                    <br>
+                    <tr>
+                       
+                        <td>50</td>
+                        <td id="5">Wait...</td>
+                        <td id="6">Wait...</td>
+                        <td id="7">Wait...</td>
+                        <td id="8">Wait...</td>
+                        </b>
+                      </tr>
+                      <br>
+                      <tr>
+                       
+                        <td>100</td>
+                        <td id="9">Wait...</td>
+                        <td id="10">Wait...</td>
+                        <td id="11">Wait...</td>
+                        <td id="12">Wait...</td>
+                        </b>
+                      </tr>
+                      <br>
+                      <tr>
+                       
+                        <td>200</td>
+                        <td id="13">Wait...</td>
+                        <td id="14">Wait...</td>
+                        <td id="15">Wait...</td>
+                        <td id="16">Wait...</td>
+                        </b>
+                      </tr>
+                      <br>
+                      <tr>
+                       
+                        <td>400</td>
+                        <td id="17">Wait...</td>
+                        <td id="18">Wait...</td>
+                        <td id="19">Wait...</td>
+                        <td id="20">Wait...</td>
+                        </b>
+                      </tr>
+                      <br>
+                      <tr>
+                       
+                        <td>800</td>
+                        <td id="21">Wait...</td>
+                        <td id="22">Wait...</td>
+                        <td id="23">Wait...</td>
+                        <td id="24">Wait...</td>
+                        </b>
+                      </tr>
+                      <br>
+
+                      <tr>
+                       
+                        <td>1600</td>
+                        <td id="25">Wait...</td>
+                        <td id="26">Wait...</td>
+                        <td id="27">Wait...</td>
+                        <td id="28">Wait...</td>
+                        </b>
+                      </tr>
+                      <br>
+
+                    </tbody>
+                      <br>
+                      <tfoot>
+                        <tr>
+                          <th colspan= "4">La data di consegna è indicativa</th>
+                        </tr>
+                      </tfoot>
+                      <br>
+               
+                  </table>
+                
+            </table>
+                <br><br><br>
+            <button id="aggiunto" class="pippo">Aggiungi al carrello</button>
+       
+        </div>
+        </table>
+      
+        <br><br>
+     
+
+        <div class="margine-testo">
+            <!--Formattiamo un po' di testo -->
+            <br> <br> <br> <br> 
+            <div>
+                <h1>Perchè acquistare i nostri prodotti</h1>
+                    <p> Descrizione dei prodotti</p>
+                <p>
+                    Gregorio Samsa, svegliandosi una mattina da sogni agitati, si trovò trasformato, nel suo letto, 
+                    in un enorme insetto immondo. Riposava sulla schiena, dura come una corazza, 
+                    e sollevando un poco il capo vedeva il suo ventre arcuato, bruno e diviso in tanti segmenti ricurvi, 
+                    in cima a cui la coperta da letto, vicina a scivolar giù tutta, si manteneva a fatica. Le gambe, numerose 
+                    e sottili da far pietà, rispetto alla sua corporatura normale, tremolavano senza tregua in un confuso 
+                    luccichio dinanzi ai suoi occhi. Cosa m’è avvenuto? pensò. Non era un sogno. La sua camera, una stanzetta d
+                    i giuste proporzioni, soltanto un po’ piccola, se ne stava tranquilla fra le quattro ben note pareti. Sulla tavola, 
+                    un campionario disfatto di tessuti - Samsa era commesso viaggiatore e sopra, appeso alla parete, un ritratto, 
+                    ritagliato da lui - non era molto - da una rivista illustrata e messo dentro una bella cornice dorata: raffigurava 
+                    una donna seduta, ma ben dritta sul busto, con un berretto e un boa di pelliccia; essa levava incontro 
+                    a chi guardava un pesante manicotto, in cui scompariva tutto l’avambraccio. Lo sguardo di Gregorio si rivolse allora 
+                    verso la finestra, e il cielo fosco (si sentivano 
+                </p>
+            </div>
+
+            <div>
+                <h1>UStampa online Eccellente</h1>
+
+                <p>
+                    Tempi di spedizione
+                </p>
+                    <p>
+                        La mia anima è pervasa da una mirabile serenità, simile a queste belle mattinate di maggio che io godo 
+                        con tutto il cuore. Sono solo e mi rallegro di vivere in questo luogo che sembra esser creato per anime 
+                        simili alla mia. Sono così felice, mio caro, così immerso nel sentimento della mia tranquilla esistenza 
+                        che la mia arte ne soffre. Non potrei disegnare nulla ora, neppure un segno potrei tracciare; eppure mai 
+                        sono stato così gran pittore come in questo momento. Quando l'amata valle intorno a me si avvolge nei suoi vapori,
+                         e l'alto sole posa sulla mia foresta impenetrabilmente oscura, e solo alcuni raggi si spingono nell'interno 
+                         sacrario, io mi stendo nell'erba alta presso il ruscello che scorre, e più vicino alla terra osservo mille 
+                         multiformi erbette; allora sento più vicino al mio cuore brulicare tra gli steli il piccolo mondo degli
+                          innumerevoli, infiniti vermiciattoli e moscerini, e sento la presenza dell'Onnipossente che ci ha creati 
+                          a sua immagine e ci tiene in una eterna gioia. Amico mio, quando dinanzi ai miei occhi si stende il 
+                          crepuscolo e posa intorno a me il mondo e il cielo tutto nell'anima mia come la sembianza di donna amata, 
+                          allora spesso 
+                </p>
+            </div>
+        </div>
+        
+         <!--PER ALESSANDRO LA PARTE FINALE INIZIA DA QUI COPIARE ANCHE LO SCRIPT C'E UN COMMENTO CHE INDICA LA FINE-->
+         <div class="super">
+            <span class="bianco"><b>
+                <ul class="scritta">
+                    <h1 class="colore-white">SouzePixart</h1>
+                </ul>
+
+
+
+                <ul>
+                    <span class="colore-white">
+                        <li > Dove Trovarci</li>
+                        <li>Indirizzo : <br><a class="colore-white" href= "https://goo.gl/maps/yjgbXqqdzjno7fCY6"> Via Domenico Capitelli, 23, 80134 Napoli NA </a></li>
+                        <li>Telefono: 081 551 1311</li>
+                    </span>
+                </ul>
+
+
+
+                <ul> <span class="colore-white">
+                    Developer: <br> Riccardo Andrea Spinosa <br>Alessando Massadoro
+                    </span>
+                </ul>
+
+                <img src="immagini/pagamenti.jpg" alt="">
+            </b>
+            </span>
+
+
+
+              
+        </div>
+
+        
+    
+        
+        
+        
+       
+       
+           <!--JAVASCRIPT-->
+<script>
+    const aggiunto = document.getElementById('aggiunto');
+    const input = document.getElementById('input-bottone');
+    const cerca = document.getElementById('cerca');
+    const title = document.getElementById('div_cerca');
+    const nascosto=document.getElementById('nascosto');
+    var nasc = window.matchMedia("(max-width: 1000px)");
+    const info = document.getElementById('informazione');
+    //let k=0;
+    const temporaneo =document.getElementById('info2');
+    const improvvisato = document.getElementById('improvvisato');
+    let array_id=["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""];
+   
+
+    for(let i=0; i<array_id.length; i++){
+        array_id[i]=document.getElementById(`${String(i)}`);
+    }
+    console.log(array_id);
+    
+    
+        for(let i=1; i<array_id.length; i++){
+            array_id[i].addEventListener('click',()=>{
+              seleziona(array_id,i);
+            
+            })}
+    
+    
+    
+    
+        info.addEventListener('click',()=>{
+                console.log('funziono');
+               mostra_info(temporaneo);
+            })
+    
+ 
+    
+                        input.addEventListener('keyup',()=>{
+                        //console.log(ricerca(converti(input.value),risultato,0,risultato.length-1));
+                        //console.log(string_matching(converti(input.value),risultato));
+                        //div_cerca.setAttribute('class','blocco'); setta attributo
+                        const t=ris_cerca[binario_matching()]
+                        title.innerHTML = t?t:"";
+                        if(input.value)
+                        {
+                            articoli.classList.add('none');
+                        }
+                        else if(input.value==="")
+                        {
+                            articoli.classList.remove('none');
+                        }
+                       
+                    })
+    
+                    /*CERCA CON JAVASCRIPT. SE LA RICERCA VA A BUON FINE LO PORTIAMO DIRETTAMENTE ALLA PAGINA DALL'UTENTE RICERCATA 
+                    VICEVERSA RISCRIVIAMO LA FUNZIONE COSì CHE NON VADA A BUON FINE E DIA ERRORE O NOT FOUND*/
+                    cerca.addEventListener('click',()=>{
+                        if(variabile_ricerca()===-1){
+                            function wind(){
+                                var p = document.createElement("p");
+                                p.setAttribute('id','paragrafo');
+                                var paragrafo=document.getElementById('paragrafo');
+                                var src = document.getElementById("fallimento"); 
+                                src.appendChild(p);
+                                paragrafo.textContent="Siamo spiacenti non abbiamo trovato ciò che cercavi"; 
+                                paragrafo.style.marginLeft='23%';
+                                paragrafo.setAttribute('class','colore-rosso');
+                            
+                            }
+                        }
+                        else{
+                            function wind(){
+                                window.location.href = array_html[variabile_ricerca()];
+                            }
+                        }
+                       wind();
+                    })
+
+
+                  
+                    nasc.addListener(nascondi) // Attach listener function on state changes
+                    
+                    
+    
+                    aggiunto.addEventListener('click',()=>{
+                        alert('elemento aggiunto al carrello');
+                    })
+                
+
+                    //SCRIVIAMO DEL TESTO
+      let requestURL="http://127.0.0.1:3000/prova";
+      let request = new XMLHttpRequest;
+      request.open('GET',requestURL);
+      request.responseType='json';
+      request.send();
+
+    request.onload = function(){
+        const classe = request.response;
+        const obj = JSON.parse(classe);
+    
+        let i,last_stop=0,j=0;
+        const euro = "€";
+        var temp;
+        let prezzi=[];
+        for (i=2;i<obj.length;i++)
+        {
+             if(obj[i]==euro)
+            {
+                temp = obj.substring(last_stop,i)
+                last_stop = i;
+                prezzi[j] = temp;
+                j=j+1;
+            }
+        }
+        console.log('I PREZZI SONO:',prezzi);
+        // 
+            $(document).ready(function(){
+                let i =1;
+                
+                    for (i=1;i<array_id.length-5;i++){
+                        $(array_id[i]).text(`${prezzi[i-1]}`)}
+                
+                })
+             }
+       
+                 
+    </script>
+    </body>
+</html>

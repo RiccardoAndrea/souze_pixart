@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+    <head><!--info per browser-->
+        <!-- titolo visualizzato nell url della pagina -->
+        <title>Stampa online buste personalizzate</title>
+        <meta charset="UTF-8">
+        <!--ANDIAMO A LINKARE LA PAGINA CSS-->
+        <link rel= "stylesheet" href="style.css">
+        <script type="text/javascript" src="script-JS/codicesterno.js"></script>
+
+
+
+    </head>
+    <body>
+        
+    
+    <!--INIZIARE DA QUI E TERMINARE FINO AL COMMENTO CHE INDICA DI FERMARSI-->
+    <div >
+            <p>
+            <div class="margine-search">
+                <a href="index.html"><button class="padd size-bottoni bottoni"><img src="immagini/casa.png"alt="" height="44px" width="44px"></button></a>
+        </div>
+            <!--INSERIAMO TAG MODIFICATI CON JS-->
+            <div id="fallimento">  </div>
+
+
+
+        </div>
+        </p>
+
+
+
+    </div>
+    <h1 style="text-align: center">Riepilogo articoli</h1>
+
+ <div>
+    <div>
+    <p class="parte-sopra">Cartellini formato standard es</p>
+
+    </div>
+
+
+    <div>
+    <pre><p class="parte-sotto"> Numero copie: 700                Data di consegna: 27/12         Totale:45€
+    </p></pre>
+    </div>
+
+      <div>
+    <p class="parte-sopra">Ciaociao standard es</p>
+
+    </div>
+
+
+    <div>
+        <pre><p class="parte-sotto"> Numero copie: <span>40</span>                Data di consegna:<span>40</span>         Totale:<span>40</span>
+    </p></pre>
+    </div>
+
+    </div>
+
+   <!--Div che conterrà gli il riepilogo-->
+    <div class="ordine">
+
+        <div class="ordine-sopra">
+           <h3 class="titolo-riepilogo"><b>Riepilogo carrello</b></h3>
+        </div>
+        <div class="ordine-centro">
+            <pre><p class="riepilogo">
+                Totale netto:                                                                         <span>38.60€</span>
+
+                Spedizione:                                                                             <span>9.50€</span>
+
+                IVA 22.00%:                                                                          <span>10.58€</span></p></pre>
+        </div>
+        <div>
+            <pre><b><p class="ordine-sotto">Totale:
+                                                                                            <span> 70.00€</span> </p></b> <pre> <br>
+                    <a href="/payment/carta"><button class="posizione-bottone">Procedi all' acquisto</button></a>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="it">
+        <div id="div_cerca">
+
+        </div>
+    </div>
+    <div class="super">
+                <span class="bianco"><b>
+                    <ul class="scritta">
+                        <h1 class="colore-white">SouzePixart</h1>
+                    </ul>
+
+
+
+                    <ul>
+                        <span class="colore-white">
+                            <li > Dove Trovarci</li>
+                            <li>Indirizzo : <br><a class="colore-white" href= "https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html"> Via Domenico Capitelli, 23, 80134 Napoli NA </a></li>
+                            <li>Telefono: 081 551 1311</li>
+                        </span>
+                    </ul>
+
+
+
+                    <ul> <span class="colore-white">
+                        Developer: <br> Riccardo Andrea Spinosa <br>Alessando Massadoro
+                        </span>
+                    </ul>
+
+                    <img src="immagini/pagamenti.jpg" alt="">
+                </b>
+                </span>
+            </div>
+
+            <!--JAVASCRIPT-->
+            <script>
+                const articolo=document.getElementById('articoli');
+                const input = document.getElementById('input-bottone');
+                const cerca = document.getElementById('cerca');
+                const title = document.getElementById('div_cerca');
+                const nascosto=document.getElementById('nascosto');
+                var nasc = window.matchMedia("(max-width: 1000px)");
+
+
+                input.addEventListener('keyup',()=>{
+                    //console.log(ricerca(converti(input.value),risultato,0,risultato.length-1));
+                    //console.log(string_matching(converti(input.value),risultato));
+                    //div_cerca.setAttribute('class','blocco'); setta attributo
+                    ricerca_su_lista();
+                    const t=ris_cerca[binario_matching()]
+                    title.innerHTML = t?t:"";
+                    if(input.value)
+                    {
+                        articoli.classList.add('none');
+                    }
+                    else if(input.value==="")
+                    {
+                        articoli.classList.remove('none');
+                    }
+
+                })
+
+                /*CERCA CON JAVASCRIPT. SE LA RICERCA VA A BUON FINE LO PORTIAMO DIRETTAMENTE ALLA PAGINA DALL'UTENTE RICERCATA
+                VICEVERSA RISCRIVIAMO LA FUNZIONE COSì CHE NON VADA A BUON FINE E DIA ERRORE O NOT FOUND*/
+                cerca.addEventListener('click',()=>{
+                    if(variabile_ricerca()===-1){
+                        function wind(){
+                            var p = document.createElement("p");
+                            p.setAttribute('id','paragrafo');
+                            var paragrafo=document.getElementById('paragrafo');
+                            //var img = document.createElement("img");
+                            var src = document.getElementById("fallimento");
+                            //img.src = "immagini/fallito.jpg";
+                            src.appendChild(p);
+                            paragrafo.textContent="Siamo spiacenti non abbiamo trovato ciò che cercavi";
+                            paragrafo.style.marginLeft='23%';
+                            paragrafo.setAttribute('class','colore-rosso');
+                            //src.appendChild(img);
+                            //img.setAttribute('src','immagini/fallito.jpg');
+                            //img.style.marginLeft = '38%';
+                            /*const myTimeout = setTimeout(myGreeting, 5000);
+                            function myGreeting() {
+                                p.remove;
+                            }*/
+                        }
+                    }
+                    else{
+                        function wind(){
+                            window.location.href = array_html[variabile_ricerca()];
+                        }
+                    }
+                    wind();
+                })
+
+
+
+                nasc.addListener(nascondi) // Attach listener function on state changes
+
+
+
+                /*articolo.addEventListener('click',()=>{
+                    alert('elemento aggiunto al carrello');
+                })*/
+
+            </script>
+
+            <!--PER ALESSANDRO LA PARTE FINALE TERMINA QUI-->
+
+        </body>
+</html>

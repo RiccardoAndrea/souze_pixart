@@ -1,0 +1,1000 @@
+/*ANDIAMO A DEFINIRE LE CLASSI PER GRAFICARE LA NOSTRA PAGINA*/
+
+            .colore-white{
+                color: white;
+            }
+
+            
+            button{
+                cursor: pointer;
+                background-color: white;
+                border: solid 1.3px;
+                
+            }
+
+            .pos-tabella{
+                margin-left:20vw; 
+                margin-top: 5w;
+                top: 100px;
+                
+            }
+            
+                        
+
+                        /*BACKGROUND-COLOR COLORA IL RETRO */
+                        /* Button Responsive Menu*/
+                        /* Bordered form */
+            .margine-home{
+                margin-top: 2vw;
+            }
+            #cerca{
+                margin-left: -1%;
+            }
+            
+            /* Full-width inputs */
+            form input[type=text], input[type=password] {
+                width: 40%;
+                padding: 12px 20px;
+                margin: 8px 30%;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+
+            form label{
+                margin-left: 30%;
+                
+            }
+            
+            /* Set a style for all buttons */
+            form button {
+                background-color: #04AA6D;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 30%;
+                border: none;
+                width: 40%;
+            }
+            
+            /* Add a hover effect for buttons */
+            form button:hover {
+                opacity: 0.8;
+            }
+            
+            /* Extra style for the cancel button (red) */
+            .cancelbtn {
+                width: auto;
+                padding: 10px 18px;
+                background-color: #f44336;
+            }
+            
+            /* Center the avatar image inside this container */
+            .imgcontainer {
+                text-align: center;
+                margin: 24px 0 12px 0;
+            }
+            
+            /* Avatar image */
+            img.avatar {
+                width: 10%;
+                border-radius: 40%;
+            }
+            
+            /* Add padding to containers */
+            .container {
+                padding: 5px;
+            }
+            
+            /* The "Forgot password" text */
+            span.psw {
+                margin-left: 20%;
+                
+            }
+            
+            /* Change styles for span and cancel button on extra small screens */
+            @media screen and (max-width: 300px) {
+                span.psw {
+                display: block;
+                float: none;
+                }
+                .cancelbtn {
+                width: 100%;
+                }
+            }
+           
+
+            .colore-rosso{
+                color: red;
+            }
+            .tabella {
+                background-color: rgba(211, 211, 211, 0.251);
+                width: 20vw;
+                
+            }
+            #x{
+                background-color: rgba(211, 211, 211, 0.251);
+                width: 20vw;
+            }
+                
+            /*LA CLASSE PIPPO DEFINISCE UN PADDING OVVERO UN ALLUNGAMENTO DEL CONTENUTO */
+            .pippo{
+                padding: 1.5%;
+                
+            }
+            .padd{
+                padding: 0.6%;
+            }
+
+            .padd2{
+                padding: 0.5%;
+            }
+            .pos-pippo{
+                padding: 1.5%;
+            }
+
+          /* */
+
+            /*DEFINISCE IL MARGINE DI UN CONTENUTO OVVERO DI QUANDO DEVE SPOSTARSI SULLA PAGINA PARTENDO DA UNA POSIZIONE DELLA LISTA*/
+            .margine{
+                margin: 2.5vw;
+                margin-top: -1vw;
+                
+            }
+            /*COLORA DI ROSSO*/
+            .rosso{
+                color: red;
+            }
+
+            /*LA CLASSE COLORA IN BACKGROUND IN COLORE AQUA*/
+            .colore-bottoni{
+                background-color: rgb(12, 12, 67);
+            }
+
+            .none{
+                display:none;
+            }
+
+            .bottoni{
+                margin-left: 1vw; 
+                margin-top: -4vw;
+                
+            }
+            #input-bottone{
+                margin-left: 15vw; 
+                margin-top: -10vw;
+               
+            }
+            /*DEFINIAMO IL FONT SIZE OVVERO DI QUANDO DEVE ESSERE GRADE IN PERCENTUALE UN DETERMINATO ELEMENTO*/
+            .size-bottoni{
+                font-size: 1.4vw;
+                
+
+            }
+            /*QUANTO DEVE ESSERE LARGO UN ELEMENTO*/
+            .larghezza{
+                width: 30vw;
+
+            }
+            /*DEFINISCE IL BORDO OVVERO LO SPESSORE ASSEGNANDONE UN  PERIMETRO RETTANGOLARE*/
+            .bordo{
+                border:solid 2px black;
+            }
+            
+            /*UNA SEMICLASSE E' UN TRIGGER UNA REGOLA DI BUSNESS CHE SI APPLICA ALLA PAGINA*/
+            /*HOVER E' UNA SEMICLASSE CHE QUANDO SPOSTIAMO IL MOUSE SOPRA UN QUALSIASI LINK SI COLORA*/
+            a:hover{
+                color: rgb(0, 0, 255);
+            }
+
+            ul img:hover{
+                border-left: solid 0.05px black;
+                border-right: solid 0.05px black;
+            }
+
+
+            button:hover{
+                border:solid 1.5px black
+
+            }
+          
+            /*SEMICLASSE DI ATTIVAZIONE OVVERO QUANDO SI CLICCA COL MOUSE*/
+            button:active{
+            color: black;
+                
+            }
+            
+            .invio-file{
+                padding: 0.8%; color: white; background-color: black;
+            }
+            
+            li:active{
+            color: black;
+            }
+            /*SEMI-CLASSE CHE QUANDO CI CONCETRIAMO O FOCALIZZIAMO SU UN TASTO INPUT QUALSIASI COSA ATTRAVERS IL MOUSE ENTRA IN FUNZIONE*/
+            input:focus{
+                
+                color: black;
+            }
+            /*ABBIAMO DEFINITO CHE TUTTI I NOSTRI COLLEGAMENTI IPERTESTUALI/FIGLI INTERNAMENTE BOX SONO NERI E SENZA SOTTOLINEATURA*/
+            /*ABBIAMO DETTO CHE TUTTI I FIGLI DI BOX CON A EREDITANO QUELLE REGOLE*/
+            .box a{
+                color: black;
+                text-decoration: none;
+                
+            }
+          
+            a:focus{
+                outline: none;
+            }
+            /*TOGLIAMO I PALLINI DALLA LISTA*/
+            ul {
+                list-style-type: none;
+                }
+            /*DEFINIAMO IL DISLAY DELLA LISTA IMMAGINI*/
+            .mostra{
+                display:flex;
+            }
+            /*Definiamo la posizone delle immagini*/
+            .pos-image{
+                margin-top: -800px; margin-left: 19%;
+                
+            }
+
+            .pos-image2{
+                margin-top: -870px; margin-left: 20%;
+                
+            }
+            /*Margine del testo*/
+            .margine-testo{
+                margin-left: 5vw;
+            }
+            .margine-testo-adesivi{
+              margin-top: 13vw;
+              margin-left: 18vw;
+                padding-right: 15vw;
+                padding-left: 7vw;
+              }
+            
+            .position-button{
+                margin-left: 70%; 
+                margin-top: -3.5vw;
+            } 
+            /*Immagine in background*/
+            
+            .parthenope-one{
+                background-image: url(immagini/parthenope.jpg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                }
+            .contain{
+                object-fit: cover;
+            }
+            /* INPUT,BOTTONI,SELECT,TEXAREA AVRANNO QUELLE REGOLE DI SETUP*/
+            button,
+            input,
+            select,
+            textarea{
+                font-family:inherit;
+                font-size: 100%;
+                box-sizing: border-box;
+                padding: 0%;
+                margin: 0%;
+            }
+
+            textarea{
+                overflow: auto;
+
+            }
+            /*MODIFICHIAMO IL TESTO DANDOGLI UN OMBRA UNA CURVATURA ED UN FONT*/
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: italic;
+                text-transform: capitalize;
+            }
+
+           
+
+        /*LOGIN*/
+        /* Shared */
+            .loginBtn {
+            box-sizing: border-box;
+            position: relative;
+            /* width: 13em;  - apply for fixed size */
+            /*margin: 0.2em;*/
+            padding: 5px 12% 0 26%;
+            border: none;
+            text-align: left;
+            line-height: 24px;
+            white-space: nowrap;
+            border-radius: 0.2em;
+            font-size: 10px;
+            color: #FFF;
+            }
+            .loginBtn:before{
+            content: "";
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 32px;
+            height: 100%;
+            }
+            .loginBtn:focus {
+            outline: none;
+            }
+            .loginBtn:active {
+            box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+            }
+
+
+            /* Facebook */
+            .loginBtn--facebook {
+            background-color: #4C69BA;
+            background-image: linear-gradient(#4C69BA, #3B55A0);
+            /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+            text-shadow: 0 -1px 0 #354C8C;
+            margin-left: -137%;
+            padding-left: 38%;
+            margin-top: 10%;
+            }
+            .loginBtn--facebook:before {
+            border-right: #364e92 1px solid;
+            background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 6px 6px no-repeat;
+            }
+            .loginBtn--facebook:hover,
+            .loginBtn--facebook:focus {
+            background-color: #5B7BD5;
+            background-image: linear-gradient(#5B7BD5, #4864B1);
+            }
+
+
+            /* Google */
+            .loginBtn--google {
+            /*font-family: "Roboto", Roboto, arial, sans-serif;*/
+            background: #DD4B39;
+            padding-left: 38%;
+            margin-left: 1%;
+            margin-top: 10%;
+            }
+            .loginBtn--google:before {
+            border-right: #BB3F30 1px solid;
+            background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_google.png') 6px 6px no-repeat;
+            }
+            .loginBtn--google:hover,
+            .loginBtn--google:focus {
+            background: #E74B37;
+            }
+            /*Si applica sempre al primo fratello di h1. */
+            h1+p{
+                color: black;
+                font-size: 150%;
+
+            }
+
+            h1{
+                font-size: 300%;
+                
+            }
+
+            h2{
+                font-size: 120%;
+                color: black;
+                
+            }
+
+            .scritta-calendari{
+                margin-left: 7%;
+            }
+            /*PER DARE UN TITOLO ALLE IMMAGINI ABBIAMO DEFINITO H3 DEFINENDONE LE REGOLE DI GRAFICA QUANDO LO ANDREMO AD UTILIZZARE*/
+            h3 {
+                font-family: Helvetica, sans-serif;
+                margin: 1px;
+                background-repeat: no-repeat;
+                color: black;
+                background-color: white;
+                font-weight: normal;
+                text-align: center;
+                font-size: 100%;
+                
+                }
+              /*LA FLOAT SERVE PER I PAAGRAFI, UTILE SE VOGLAMO SPOSTARE TESTI ALLA SISTRA O DESTRA DELLE IMMAGINI*/
+              h4
+              {
+                margin: 0px;
+                background-repeat: no-repeat;
+                color: #FFFFFF;
+                background-color: rgb(0, 187, 255);
+                font-size: 140%;
+                font-weight: normal;
+                text-align: center;
+              }
+
+            
+            h6 {
+                margin: 0px;
+                background-image: url(immagini/etichette_bobina.jpg);
+                background-repeat: no-repeat;
+                color: #FFFFFF;
+                background-color: white;
+                font-size: 140%;
+                font-weight: normal;
+                line-height: 260px;
+                text-align: center;
+                width: 240px;
+                height: 150px;
+                }
+              /*DEFINENDO UN MARGINE A TUTTI I DIV DI 1PX ESSENDO DI TIPO BLOCK E NON INLINE TUTI CONTENUTI NON SI SOVRAPPONGO*/
+            div{
+                margin: 1px;
+              }
+              /* STIAMO IMPOSTANDO LE REGOLE CSS DELLA GRIGLIA*/
+            .griglia{
+                background-color: aqua;
+                display: flex;
+                flex-direction: column;
+                
+            }
+              /*UN PO' DI REGOLE ALLE NOSTRE TABELLE*/
+            table {
+                border-collapse:collapse
+                }
+            .griglia td, th {
+                border:1px solid #ddd;
+                padding:10px;
+                }
+
+            .font-menu{
+                font-size: 150%;
+            }
+
+            .no_bordo{
+                border: none;
+                
+            }
+            
+              /*DEDINIAMO UNA CLASSE PER SCRIVERE SOPRA L'IMMAGINE DESIDERATA*/
+            .caption {
+                font-family: Verdana, sans-serif;
+                font-size: 10px;
+                float: left;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                overflow: hidden;
+            }
+            .caption img {
+                float: left;
+                margin: 0;
+                padding: 0;
+                background: #fff;
+                border: none;
+            }
+            .caption span {
+                float: left;
+                margin: 0;
+                padding: 10px;
+                width: 100%;
+                color: #dedede;
+                background: #222; /* browser che non supportano rgba */
+                background: rgba(0,0,0,0.7);
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+            .caption span strong {
+                font-weight: bold;
+                font-size: 11px;
+                text-transform: uppercase;
+                display: block;
+                padding-bottom: 5px;
+            }
+            .posizione-promo{
+                margin-left: 20%;
+            }
+            #posizione-codice{
+                margin-top:  45vw;
+                margin-left: 40%;
+                
+            }
+
+            .inserisci-promo{
+                margin-top: -8%;
+            }
+            
+            .colore{
+                color: blueviolet;
+            }
+            
+            
+            /*COLORA BACKGROUND*/
+            .background{
+                background-color: aqua;   
+            }
+            /*PERMETTE DI FAR SCRIVERE UN PARAGRAFO ALLA SUA DESTRA */
+            .flet{
+              float: left;
+            }
+
+            .bordi-rotondi{
+                border-top-left-radius: 10px;
+                border-top-right-radius: 50px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 50%;
+            }
+
+            .pos_mat_elettorale{
+                margin: 5vw 0px 0px 15vw;
+            }
+            /*utilizzato anche per la posizione di pannelli.html*/
+            .pos_brochure{
+                margin-left: -1vw;
+                margin-top: 5vw;
+                margin-bottom: 7vw;
+            }
+            h5{
+                text-align: center;
+                font-size: 1.2vw;
+                font-weight:lighter;
+            }
+
+            .margine-campionario{
+                margin-top: 5%;
+            }
+
+            .super{
+                margin-top: 25%;
+                
+                
+                
+            }
+
+            .sinistra{
+                margin-right: 50px;
+            }
+            
+            .margine-cerca{
+                margin-left: 8%;
+            }
+
+            .margine-search{
+                margin-top: 0%;
+                margin-left: 8%;
+                }
+
+
+                .box1 {
+                    background: #4c74be;
+                    
+                    padding: 30px;
+                    border: 2px solid black;
+                    -moz-box-sizing: content-box;
+                    -webkit-box-sizing: content-box;
+                    box-sizing: content-box;
+                    }
+
+                    
+                /*Position absolute ci permette di tenere in posiziona fissa un elemento*/
+           /*#carrello{
+            margin-left:87%;
+            margin-top: -24px;   
+            }*/
+
+          
+            iframe{
+                cursor: pointer;
+            }
+            #reg{
+             margin-top: 5%;
+             margin-left: 50%;
+             }
+
+           .posizione-reg{
+               margin-left: 1vw;
+               margin-top: 5%;
+           }
+
+           .marg-reg{
+                padding: 1.5%;
+           }
+
+           .it {
+            margin-left: 22%; 
+            margin-top: -7%;
+        }
+
+            .blu{
+                color: rgb(0, 0, 255);
+            }
+
+         
+
+            /*RESPONSIVE*/
+            /*IN BASE AD ALTEZZA O LARGHEZZA DEI PIXEL*/
+            @media screen and (max-width:1000px) {
+          
+            
+               
+            
+                .pos-pippo{
+                    margin-left: 14%;
+                }
+
+                
+
+                .margine{
+                    margin-top: -2vw;
+                    margin: 1vw;
+               }
+
+          
+                #input-bottone{
+                    margin-left: 20vw; 
+                    margin-top: -10vw;
+                }
+                /*menu*/
+                #drop-menu {
+                    top: 200px;
+                    padding: 0;
+                    width: 960px;
+                    position: absolute;
+                   
+                }
+
+                ul#menu {
+                    margin:60px 0 0;
+                    padding: 0;
+                    list-style: none;
+                    float:left;
+                    width: 110px;
+                    background-color: #111;
+                    font-size:60%
+                }
+
+                ul#menu li {
+                    margin:0;
+                    padding:0;
+                    float:left;
+                    display: block;
+                    border-right: 1px solid #222;
+                    position: relative;
+                }
+
+                ul#menu li a {
+                    float: left;
+                    padding:12px 30px;
+                    color: #fff;
+                    text-transform: uppercase;
+                    text-decoration:none;
+                }
+
+                ul#menu li a:hover {
+                    background: #666;
+                    color:#fff
+                }
+
+                ul#menu ul {
+                    margin:2px 0 0;
+                    padding:0;
+                    display:inline-block;
+                    list-style: none;
+                    opacity: 0;
+                    visibility: hidden;
+                    position: absolute;
+                    top: 38px;
+                    left: 0;
+                    z-index:9999;
+                    background: #444;
+                }
+
+                ul#menu li:hover ul {
+                    opacity: 1;
+                    visibility: visible;
+                    transition-duration: 1s;
+                }
+
+
+
+                ul#menu ul li {
+                    float: none;
+                    display: block;
+                    border: 0;
+                }
+
+                ul#menu ul a {
+                    padding:10px;
+                    width: 100px;
+                    display: block;
+                    white-space: nowrap;
+                    float: none;
+                    text-transform: none;
+                }
+
+                ul#menu ul a:hover {
+                    background-color: #0186ba;
+                    color:#fff
+                }
+
+                ul img{
+                    height: 120px;
+                    width: 120px;
+
+                }
+
+                h3{
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin: 1px;
+                    background-repeat: no-repeat;
+                    color: black;
+                    background-color: white;
+                    font-weight: normal;
+                    text-align: center;
+                    font-size: 70%;
+
+                }
+              
+                
+            }
+            
+          
+
+            @media screen and (min-width:1300px) {
+                .it{
+                    margin-top: 1px;
+
+                }
+
+                
+
+
+            }
+            body {
+
+                background-image: url("immagini/aqua.png");
+                 background-repeat: no-repeat;
+                 background-position: bottom ;
+                 background-size: 2000px;
+                 
+               
+                
+            
+            }
+            .scritta{
+                margin-left: 40%;
+                
+                
+            }
+            
+         
+            .bianco{
+                color: black;
+            }
+            
+      
+            .blocco {
+                width: 450px;
+                height: 250px;
+                border: 1px solid black;
+                position: absolute;
+                
+                
+            }
+            .color-aqua{
+                color: aqua;
+            }
+
+            .colore-bianco{
+                color: white;
+            }
+          
+
+            /*TEST*/
+
+            #mapid { margin-left: 73%; margin-top: -15%; }
+
+ 
+
+
+                .posizione-imp{
+                    margin-left: 400px;
+                }
+
+ 
+
+                .posizione-imp1{
+                    margin-left: 390px;
+                }
+                .posizione-imp2{
+                    margin-left: 380px;
+                }
+                .posizione-imp3{
+                    margin-left: 325px;
+                }
+                .posizione-imp4{
+                    margin-left: 450px;
+                }
+                .posizione-imp5{
+                    margin-left: 400px;
+                }
+                .posizione-imp6{
+                    margin-left: 390px;
+                }
+                .posizione-imp7{
+                    margin-left: 240px;
+                    padding-left: 50px;
+
+                }
+
+ 
+
+ 
+
+                #impostazioni button{
+                    padding: 10px;
+                    border-radius: 25px;
+                    padding-left: 55px;
+                }
+
+ 
+
+                #improvvisato {
+                text-align: left;
+                position: relative;
+                border-collapse: collapse; 
+                background-color: white;
+                color: black;
+              }/* Spacing */
+
+            #improvvisato th{
+                border: none;
+            }
+
+            #improvvisato td {
+                    padding: 50px;}
+
+            #improvvisato td:hover {
+                background-color: white;
+                color: black;
+
+              }
+
+ 
+
+            #improvvisato td{
+                cursor: pointer;
+            }
+
+              table img{
+                cursor: pointer;
+                }
+
+
+            .posizione-acquisto{
+               margin-left: 25%;
+
+ 
+
+            }
+            
+            #aggiunto{
+                margin-left: 70%;
+            }
+            
+            .parte-sopra{
+                padding-top: 1.5%;
+                padding-bottom: 1.5%;
+                padding-left: 3%;
+                border-style:solid;
+                border-bottom: none;
+                border-left-color: darkblue;
+                border-right-color: darkblue;
+                border-top-color: darkblue;
+                background: lightblue;
+                color: black;
+                border-width:1px;
+                margin-right: 25%;
+                margin-left:25%;
+                font-size: 1.4vw;
+                border-top-left-radius: 1vw;
+                border-top-right-radius: 1vw;
+            }
+            
+            .parte-sotto  {
+                font-size: 1.2vw;
+                padding-top: 2%;
+                border-style:solid;
+                border-left-color: black;
+                border-right-color: black;
+                border-bottom-color: black;
+                border-width:1px;
+                margin-top: -1.6%;
+                margin-right: 25%;
+                margin-left:25%;
+                border-bottom-left-radius: 1vw;
+                border-bottom-right-radius: 1vw;
+            }
+            
+            
+            .ordine-sopra{
+                border:none;
+                padding-top: 0.2%;
+                padding-bottom: 0.2%;
+                padding-left: 3%;
+                border-bottom: none;
+                border-left-color: blue;
+                border-right-color: blue;
+                border-top-color: blue;
+                background: white;
+                color: black;
+                border-width:1px;
+                margin-right: 25%;
+                margin-left:25%;
+                margin-top: 7%;
+                font-size: 1.4vw;
+                border-top-left-radius: 1vw;
+                border-top-right-radius: 1vw;
+            
+            }
+            
+            .ordine-centro  {
+                font-size: 1.2vw;
+            
+                border:none;
+                border-left-color: blue;
+                border-right-color: blue;
+                border-bottom: none;
+                border-width:1px;
+                margin-top: -0.2%;
+                margin-right: 25%;
+                margin-left:25%;
+                padding-bottom: 0.4%;
+            
+            }
+            .ordine-sotto  {
+                font-size: 1.2vw;
+                padding-top: 1vw;
+                border:none;
+                border-left-color: black;
+                border-right-color: black;
+                border-width:1px;
+                margin-top: -1.3%;
+                margin-right: 24.95%;
+                margin-left:24.95%;
+                border-bottom-left-radius: 1vw;
+                border-bottom-right-radius: 1vw;
+                padding-bottom: 0.5%;
+                padding-left: 5.6%;
+            
+            }
+            .posizione-bottone{
+                font-family: "American Typewriter";
+                border-radius: 30px;
+                margin-top: 4%;
+                margin-left: 31% ;
+                padding-left: 4%;
+                padding-right:  4%;
+                padding-top: 1.5%;
+                padding-bottom: 1.5%;
+                background: forestgreen;
+                color: white;
+                border-color: white;
+                border: solid;
+            }
+            
+            .titolo-riepilogo{
+                margin-left: -8%;
+            }
+            .posizione-acquisto{
+                margin-left: 25%;
+            
+            
+            
+             }
+             li a:hover{
+                color: rgb(0, 0, 255);
+             }
+             li{
+                font-family: Helvetica, sans-serif;
+             }
+    
+
+         

@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery.getJSON demo</title>
+    <style>
+        img{
+            height: 100px;
+            float: left;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+
+<div></div>
+<button id = push>ciao</button>
+<p ></p>
+<!--<button id="ciao">load</button>-->
+<p id="pazzo"></p>
+
+
+ 
+<table >
+    <div>
+        
+        <table class="posizione-acquisto" id="improvvisato">
+        <thead>
+            <tr>
+                <th>Quantità</th>
+                <th><h5>Data</h5></th>
+                <th><h5>Data 2</h5></th>
+                <th><h5>Data 3</h5></th>
+                <th><h5>Data 4</h5></th>
+                </b>
+        </thead>
+              
+            </tr>
+            <br> <br>
+        <tbody>
+            <tr>
+               
+                <td>25</td>
+                <td id = result></td>
+                <td ><p id="2"></p></td>
+                <td ><p id="3"></p></td>
+                <td ><p id="4"></p></td>
+                </b>
+            </tr>
+            <br>
+            <tr>
+               
+                <td>50</td>
+                <td id="5"></td>
+                <td id="6"></td>
+                <td id="7"></td>
+                <td id="8"></td>
+                </b>
+              </tr>
+              <br>
+              <tr>
+               
+                <td>100</td>
+                <td id="9"></td>
+                <td id="10"></td>
+                <td id="11"></td>
+                <td id="12"></td>
+                </b>
+              </tr>
+              <br>
+              <tr>
+               
+                <td>200</td>
+                <td id="13"></td>
+                <td id="14"></td>
+                <td id="15"></td>
+                <td id="16"></td>
+                </b>
+              </tr>
+              <br>
+              <tr>
+               
+                <td>400</td>
+                <td id="17"></td>
+                <td id="18"></td>
+                <td id="19"></td>
+                <td id="20"></td>
+                </b>
+              </tr>
+              <br>
+              <tr>
+               
+                <td>800</td>
+                <td id="21"></td>
+                <td id="22"></td>
+                <td id="23"></td>
+                <td id="24"></td>
+                </b>
+              </tr>
+              <br>
+
+              <tr>
+               
+                <td>1600</td>
+                <td id="25"></td>
+                <td id="26"></td>
+                <td id="27"></td>
+                <td id="28"></td>
+                </b>
+              </tr>
+              <br>
+
+            </tbody>
+              <br>
+              <tfoot>
+                <tr>
+                  <th colspan= "4">La data di consegna è indicativa</th>
+                </tr>
+              </tfoot>
+              <br>
+       
+          </table>
+        
+    </table>
+        <br><br><br>
+
+
+
+
+<script>
+    const improvvisato = document.getElementById('improvvisato');
+    const push = document.getElementById('push');
+    let array_id=[];
+    $(document).ready(function(){
+      $("#push").click(function(){
+         $("#result").text('HAI CACATO ?')}
+        )})
+  
+    /*
+        for(let i=0; i<obj.length ; i++){
+            console.log('iesimo elemento e:',obj[i]);
+    }
+    */
+   
+  
+
+        /*array_id.forEach(element,i => {
+            array_id[i].textcontent=`${obj(i)}`
+        });*/
+
+    
+        
+    
+  
+
+    
+
+     /* let Prezzi;
+    const url = "http://127.0.0.1:3000/prova"
+    $(document).ready(function(){
+      $("#push").click(function(){
+      $.getJSON(url,function(result){
+          $("#result").text(result)
+      })
+
+    .fail(function (){
+             let i,last_stop=0,j=0;
+             const euro = "€";
+             var temp;
+             let prezzi=[];
+             $("#pazzo").load("/venv/prezzi.txt");
+             $.get( "venv/prezzi.txt", function( data ) {
+                   var resourceContent = data;
+                   for (i=1;i<resourceContent.length;i++)
+                   {
+                      if(resourceContent[i]==euro)
+                      {
+                           temp = resourceContent.substring(last_stop,i)
+                           last_stop = i;
+                           prezzi[j] = temp;
+                           j=j+1;
+                      }
+                   }
+                 });
+         })
+       });
+   });*/
+
+   
+
+   for(let i=1; i<array_id.length; i++){
+        array_id[i]=document.getElementById(`${String(i)}`);
+    }
+
+    console.log('array e: ',array_id);
+   let requestURL="http://127.0.0.1:3000/prova";
+      let request = new XMLHttpRequest;
+      request.open('GET',requestURL);
+      request.responseType='json';
+      request.send();
+
+    request.onload = function(){
+        const classe = request.response;
+        const obj = JSON.parse(classe);
+    
+        let i,last_stop=0,j=0;
+        const euro = "€";
+        var temp;
+        let prezzi=[];
+        for (i=2;i<obj.length;i++)
+        {
+             if(obj[i]==euro)
+            {
+                temp = obj.substring(last_stop,i)
+                last_stop = i;
+                prezzi[j] = temp;
+                j=j+1;
+            }
+        }
+        console.log('I PREZZI SONO:',prezzi)
+    }
+      
+</script>
+
+</body>
+</html>
