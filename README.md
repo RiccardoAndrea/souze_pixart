@@ -1,3 +1,4 @@
+Progetto Commercio Elettronico - Cartoleria SouzePixart
 Questo progetto riguarda la creazione di un'applicazione Web volta a simulare un commercio elettronico in questo caso una cartoleria, con alcuni dati prelevati da Webscraping. Il progetto è fullstack.
 
 Per eseguire il nostro progetto devi installare:
