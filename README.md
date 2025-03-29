@@ -34,7 +34,7 @@ Per eseguire il progetto, è necessario installare:
   - Installabile seguendo la guida ufficiale:  
     [Guida all'installazione](https://docs.oracle.com/en/database/oracle/oracle-database/21/xeinw/installation-guide.html#GUID-C3C5B05A-3BEB-4373-96D0-80BBADFBD6A4)  
   - Il database deve essere configurato seguendo questo documento:  
-    [Schema del Database](https://docs.google.com/document/d/1SbtHVL2f2SYzCodkkZ7K6vDSenzZ8TrDraGkzxABGck/edit?usp=share_link)  
+    Schema del Database reperibile nella documentazione della cartella:
     Questo file contiene le **CREATE TABLE**, le **funzioni** e le **procedure** necessarie.  
 
 - **Flask e dipendenze Python**:  
