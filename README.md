@@ -1,4 +1,4 @@
-Questo progetto è stato sviluppato nell'ambito del corso di studio in Informatica - Università di Napoli Parthenope e riguarda la creazione di un'applicazione Web volta a simulare un commercio elettronico come, con alcuni dati prelevati da Webscraping.
+Questo progetto riguarda la creazione di un'applicazione Web volta a simulare un commercio elettronico in questo caso una cartoleria, con alcuni dati prelevati da Webscraping. Il progetto è fullstack.
 
 Per eseguire il nostro progetto devi installare:
 
