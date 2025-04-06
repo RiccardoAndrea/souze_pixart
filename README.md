@@ -73,6 +73,6 @@ Per avviare correttamente il progetto, segui questi passaggi:
    - Dopo questi passaggi, il sito sarà attivo e accessibile via **localhost** dal browser.  
 
 ## Note Finali  
-Ricorda che questo è solo un **prototipo**, alcune funzionalità potrebbero non essere state completate.  
+Ricorda che questo è solo un **prototipo**.  
 
 **Il progetto è open-source e liberamente utilizzabile!**
