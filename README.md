@@ -73,5 +73,9 @@ Per avviare correttamente il progetto, segui questi passaggi:
 
 ## Note Finali  
 Ricorda che questo è solo un **prototipo**.  
+## Demo
+Presente come file scaricabile o visualizzabile al link:  
+
+[![La demo di Souze Pixart](https://youtu.be/61TMrM9r-VM)
 
 **Il progetto è open-source e liberamente utilizzabile!**
