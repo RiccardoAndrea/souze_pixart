@@ -21,8 +21,7 @@ Il progetto utilizza le seguenti tecnologie:
   - Flask fornisce API per rendere accessibili i dati al frontend.  
 - **Oracle Database**:  
   - Gestisce le informazioni sui prodotti e sugli utenti.  
-  - Il database è stato progettato con **funzioni e stored procedure** per garantire sicurezza ed efficienza.  
-- **Bootstrap**: Per lo stile e il layout dell'interfaccia utente.  
+  - Il database è stato progettato con **funzioni e stored procedure** per garantire sicurezza ed efficienza.   
 - **JavaScript & AJAX**: Per aggiornamenti dinamici senza ricaricare la pagina.  
 
 ## Requisiti  
