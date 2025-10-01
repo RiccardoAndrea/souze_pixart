@@ -76,6 +76,6 @@ Ricorda che questo è solo un **prototipo**.
 ## Demo
 Presente come file scaricabile o visualizzabile al link:  
 
-[![La demo di Souze Pixart](https://youtu.be/61TMrM9r-VM)
+[[La demo di Souze Pixart](https://www.youtube.com/watch?v=61TMrM9r-VM)
 
 **Il progetto è open-source e liberamente utilizzabile!**
